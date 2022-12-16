@@ -12,7 +12,7 @@ $server = [
 ];
 
 // echo $server['Server Software'];
-// print_r($server);
+ print_r($server);
 $client = [
     'Client System info' => $_SERVER['HTTP_USER_AGENT'],
     'Client IP' => $_SERVER['REMOTE_ADDR'],
